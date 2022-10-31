@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
 body { 
+    font-family: 'PT Serif', serif;
     text-align: center; 
     background: rgb(139, 43, 228); 
 } 
@@ -6,6 +8,18 @@ body {
 .capa { 
     width: 100%; 
 }
-.beneficios-imagem{
-width: 30%;
+ul{
+    margin-top: 25px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+li{
+    padding: 15px;
+    text-align: left;
+}
+.beneficios-imagem  {
+   width: 40%;
+   border-radius: 15px;
+   margin-left: 200px;
 }
